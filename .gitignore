@@ -1,4 +1,4 @@
-#Built application files
+# Built application files
 *.apk
 *.ap_
 
@@ -35,6 +35,7 @@ captures/
 # Intellij
 *.iml
 .idea/workspace.xml
+<<<<<<< HEAD
 .idea
 .DS_Store
 
@@ -75,3 +76,8 @@ local.properties
 #
 node_modules/
 npm-debug.log
+=======
+
+# Keystore files
+*.jks
+>>>>>>> origin/master
