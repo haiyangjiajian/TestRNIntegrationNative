@@ -10,22 +10,14 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".activity.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        android:id="@+id/textView"
-        android:layout_centerVertical="true"
-        android:layout_centerInParent="true"
-        />
-
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="GOTO RN"
+        android:layout_width="200dp"
+        android:layout_height="64dp"
+        android:text="Goto RN"
+        android:textAllCaps="false"
         android:id="@+id/gotoRN"
-        android:layout_below="@+id/textView"
         android:layout_centerVertical="true"
         android:layout_centerInParent="true"
+        android:background="#F37C21"
         />
 </RelativeLayout>

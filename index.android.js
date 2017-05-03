@@ -15,7 +15,6 @@ class HelloWorld extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.hello}>Hello, World</Text>
         <TouchableOpacity style={styles.button} onPress={() => {this.onPress()}}>
             <Text style={styles.gotoNative}>Goto Native</Text>
         </TouchableOpacity>
@@ -31,6 +30,7 @@ var styles = StyleSheet.create({
   container: {
     flex: 1,
     justifyContent: 'center',
+    alignItems: 'center'
   },
   hello: {
     fontSize: 20,
@@ -46,6 +46,8 @@ var styles = StyleSheet.create({
   button: {
     paddingTop: 8,
     paddingBottom: 8,
+    height: 64,
+    width:200,
     backgroundColor: '#F37C21',
   }
 });
